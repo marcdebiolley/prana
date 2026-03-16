@@ -1,28 +1,38 @@
 import FadeInSection from './FadeInSection'
 
-function BorderCollieIcon() {
+function PawsIcon() {
   return (
     <svg
-      viewBox="0 0 200 160"
+      viewBox="0 0 180 140"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-40 h-32 opacity-30"
+      className="w-44 h-36"
       aria-hidden="true"
     >
-      <path
-        d="M160 80 C165 60, 175 50, 170 40 C165 30, 155 35, 150 45
-           C145 35, 135 30, 125 40 C120 50, 122 60, 118 70
-           C110 65, 95 60, 80 65 C65 70, 50 80, 40 95
-           C30 110, 35 125, 45 130 C55 135, 60 125, 65 115
-           C70 105, 75 100, 80 100 C90 100, 95 110, 100 120
-           C105 130, 115 135, 125 130 C135 125, 130 115, 128 105
-           C135 100, 145 95, 155 90 C165 85, 168 82, 160 80Z"
-        fill="#8B7355"
-      />
-      <path
-        d="M155 90 C165 85, 180 75, 190 60 C185 58, 178 65, 168 72 C162 77, 158 83, 155 90Z"
-        fill="#8B7355"
-      />
+      {/* Patte grande — centre bas */}
+      <g fill="#8B7355" opacity="1">
+        <ellipse cx="90" cy="108" rx="14" ry="11" />
+        <ellipse cx="72" cy="90" rx="7.5" ry="9" />
+        <ellipse cx="84" cy="84" rx="7.5" ry="9" />
+        <ellipse cx="97" cy="84" rx="7.5" ry="9" />
+        <ellipse cx="109" cy="90" rx="7.5" ry="9" />
+      </g>
+      {/* Patte moyenne — haut gauche */}
+      <g fill="#8B7355" opacity="0.55">
+        <ellipse cx="38" cy="72" rx="10" ry="8" />
+        <ellipse cx="25" cy="58" rx="5.5" ry="6.5" />
+        <ellipse cx="35" cy="52" rx="5.5" ry="6.5" />
+        <ellipse cx="46" cy="52" rx="5.5" ry="6.5" />
+        <ellipse cx="55" cy="58" rx="5.5" ry="6.5" />
+      </g>
+      {/* Patte petite — haut droit */}
+      <g fill="#8B7355" opacity="0.32">
+        <ellipse cx="145" cy="55" rx="8" ry="6.5" />
+        <ellipse cx="134" cy="43" rx="4.5" ry="5.5" />
+        <ellipse cx="143" cy="38" rx="4.5" ry="5.5" />
+        <ellipse cx="152" cy="38" rx="4.5" ry="5.5" />
+        <ellipse cx="160" cy="43" rx="4.5" ry="5.5" />
+      </g>
     </svg>
   )
 }
@@ -43,7 +53,7 @@ export default function AboutFather() {
           <FadeInSection delay={0.1}>
             <div className="flex items-center justify-center h-64 rounded-2xl bg-bg border border-text/5">
               <div className="text-center">
-                <BorderCollieIcon />
+                <PawsIcon />
                 <p className="font-sans text-sm text-text/40 mt-4 tracking-wide">Photo à venir</p>
               </div>
             </div>

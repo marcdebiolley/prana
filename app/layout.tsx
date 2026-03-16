@@ -18,6 +18,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Portée de Prana — Chiots Border Collie',
   description: 'Portée imminente de Prana, Border Collie brun de 6 ans. Découvrez les parents et soumettez votre candidature d\'adoption.',
+  icons: {
+    icon: [{ url: '/icon.svg', type: 'image/svg+xml' }],
+  },
   openGraph: {
     title: 'Portée de Prana — Chiots Border Collie',
     description: 'Portée imminente de Prana, Border Collie brun de 6 ans.',

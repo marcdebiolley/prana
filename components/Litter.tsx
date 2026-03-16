@@ -25,7 +25,7 @@ const facts = [
 
 export default function Litter() {
   return (
-    <section id="portee" className="bg-bg py-24 px-6">
+    <section id="portee" className="bg-bg py-24 px-6 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
 
         <FadeInSection>

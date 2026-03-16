@@ -72,7 +72,7 @@ export default function ContactForm() {
   const valid = isValid(form)
 
   return (
-    <section id="contact" className="bg-bg py-24 px-6">
+    <section id="contact" className="bg-bg py-24 px-6 scroll-mt-20">
       <div className="max-w-3xl mx-auto">
 
         <FadeInSection>
@@ -122,8 +122,8 @@ export default function ContactForm() {
             </div>
 
             {/* Jardin */}
-            <div>
-              <label className={labelClass}>Jardin ou espace extérieur privatif ? *</label>
+            <fieldset>
+              <legend className={labelClass}>Jardin ou espace extérieur privatif ? *</legend>
               <div className="flex gap-4">
                 {['Oui', 'Non'].map((opt) => (
                   <label key={opt} className="flex items-center gap-2 font-sans text-sm cursor-pointer">
@@ -139,11 +139,11 @@ export default function ContactForm() {
                   </label>
                 ))}
               </div>
-            </div>
+            </fieldset>
 
             {/* Enfants */}
-            <div>
-              <label className={labelClass}>Enfants à la maison ? *</label>
+            <fieldset>
+              <legend className={labelClass}>Enfants à la maison ? *</legend>
               <div className="flex gap-4">
                 {['Oui', 'Non'].map((opt) => (
                   <label key={opt} className="flex items-center gap-2 font-sans text-sm cursor-pointer">
@@ -159,7 +159,7 @@ export default function ContactForm() {
                   </label>
                 ))}
               </div>
-            </div>
+            </fieldset>
 
             {/* Autres animaux */}
             <div>
@@ -168,8 +168,8 @@ export default function ContactForm() {
             </div>
 
             {/* Expérience */}
-            <div>
-              <label className={labelClass}>Expérience avec les chiens *</label>
+            <fieldset>
+              <legend className={labelClass}>Expérience avec les chiens *</legend>
               <div className="flex flex-col gap-2">
                 {[
                   { value: 'Débutant', label: "Débutant — premier chien" },
@@ -189,7 +189,7 @@ export default function ContactForm() {
                   </label>
                 ))}
               </div>
-            </div>
+            </fieldset>
 
             {/* Motivation */}
             <div>

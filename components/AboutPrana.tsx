@@ -12,7 +12,7 @@ const photos = [
 
 export default function AboutPrana() {
   return (
-    <section id="prana" className="bg-bg py-24 px-6">
+    <section id="prana" className="bg-bg py-24 px-6 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
 
         {/* Header */}

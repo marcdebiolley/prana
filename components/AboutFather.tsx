@@ -29,7 +29,7 @@ function BorderCollieIcon() {
 
 export default function AboutFather() {
   return (
-    <section id="papa" className="bg-bg-alt py-24 px-6">
+    <section id="papa" className="bg-bg-alt py-24 px-6 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
 
         <FadeInSection>

@@ -58,7 +58,7 @@ export default function Nav() {
         <button
           className="md:hidden flex flex-col gap-1.5 p-2"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Menu"
+          aria-label="Menu" aria-expanded={menuOpen}
         >
           <span className={`block w-6 h-0.5 bg-text transition-transform duration-200 ${menuOpen ? 'rotate-45 translate-y-[8px]' : ''}`} />
           <span className={`block w-6 h-0.5 bg-text transition-opacity duration-200 ${menuOpen ? 'opacity-0' : ''}`} />

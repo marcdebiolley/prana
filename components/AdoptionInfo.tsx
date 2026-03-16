@@ -10,7 +10,7 @@ const criteria = [
 
 export default function AdoptionInfo() {
   return (
-    <section id="adoption" className="bg-bg-alt py-24 px-6">
+    <section id="adoption" className="bg-bg-alt py-24 px-6 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
 
         <FadeInSection>
@@ -48,7 +48,7 @@ export default function AdoptionInfo() {
                   'Une rencontre avec Prana et les chiots est organisée',
                   'Remise du chiot accompagné de ses documents',
                 ].map((step, i) => (
-                  <li key={i} className="flex gap-4 items-start">
+                  <li key={`step-${i}`} className="flex gap-4 items-start">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-accent text-white text-xs font-sans font-medium flex items-center justify-center">
                       {i + 1}
                     </span>

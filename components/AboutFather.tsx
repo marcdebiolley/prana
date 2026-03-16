@@ -34,7 +34,7 @@ export default function AboutFather() {
 
         <FadeInSection>
           <p className="font-sans text-xs tracking-widest uppercase text-accent mb-3">Le papa</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-text mb-6">Le Border Collie noir</h2>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-text mb-6">Moshe</h2>
           <div className="w-12 h-px bg-accent mb-8" />
         </FadeInSection>
 
@@ -52,19 +52,19 @@ export default function AboutFather() {
           <FadeInSection delay={0.2}>
             <div className="space-y-4 font-sans text-text/80 leading-relaxed">
               <p>
-                Le père de la portée est un magnifique Border Collie noir, sélectionné pour son
+                Moshe est un magnifique Border Collie noir, sélectionné pour son
                 caractère équilibré et ses qualités sportives.
               </p>
               <p>
-                L&apos;association d&apos;un Border Collie brun et d&apos;un Border Collie noir promet des chiots
-                aux robes variées — potentiellement brun tricolore, noir tricolore ou merle —
+                L&apos;association de Prana (brun) et de Moshe (noir) promet des chiots
+                aux robes variées, potentiellement brun tricolore, noir tricolore ou merle,
                 tous porteurs de l&apos;intelligence et de l&apos;énergie propres à la race.
               </p>
             </div>
 
             <div className="mt-8 flex flex-wrap gap-3">
               {[
-                'Border Collie noir',
+                'Moshe',
                 'Caractère équilibré',
                 'Race pure',
               ].map((tag) => (

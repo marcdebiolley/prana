@@ -29,14 +29,14 @@ export default function AboutPrana() {
           <FadeInSection delay={0.1}>
             <div className="space-y-4 font-sans text-text/80 leading-relaxed">
               <p>
-                Prana est une Border Collie brun tricolore de 6 ans, pleine de vie, d&apos;intelligence
-                et d&apos;affection. Son nom, emprunté au Sanskrit, signifie <em>«&nbsp;souffle vital&nbsp;»</em> —
-                et elle porte ce nom à merveille.
+                Prana est une Border Collie brun tricolore de 6 ans, pleine de vie et d&apos;affection.
+                Son nom, emprunté au Sanskrit, signifie <em>«&nbsp;souffle vital&nbsp;»</em> et elle
+                porte ce nom à merveille.
               </p>
               <p>
-                Douce avec les enfants, curieuse et équilibrée, Prana est une chienne de famille
-                exceptionnelle. Elle allie l&apos;énergie caractéristique des Border Collies à un
-                tempérament calme et attentif à son foyer.
+                D&apos;une intelligence exceptionnelle, Prana apprend avec une facilité déconcertante
+                et anticipe chaque situation. Douce avec les enfants, curieuse et équilibrée,
+                c&apos;est une chienne de famille hors du commun.
               </p>
               <p>
                 À 6 ans, c&apos;est sa première portée. Chaque chiot sera élevé dans un environnement

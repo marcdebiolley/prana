@@ -172,8 +172,8 @@ export default function ContactForm() {
               <legend className={labelClass}>Expérience avec les chiens *</legend>
               <div className="flex flex-col gap-2">
                 {[
-                  { value: 'Débutant', label: "Débutant — premier chien" },
-                  { value: 'Expérimenté', label: "Expérimenté — j'ai déjà eu des chiens" },
+                  { value: 'Débutant', label: "Débutant, premier chien" },
+                  { value: 'Expérimenté', label: "Expérimenté, j'ai déjà eu des chiens" },
                   { value: 'Border Collie', label: "J'ai déjà eu un Border Collie" },
                 ].map((opt) => (
                   <label key={opt.value} className="flex items-center gap-2 font-sans text-sm cursor-pointer">

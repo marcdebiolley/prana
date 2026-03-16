@@ -13,7 +13,7 @@ export default function Hero() {
           alt="Prana, Border Collie brun"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-top"
           sizes="100vw"
         />
         {/* Gradient overlay for text readability */}

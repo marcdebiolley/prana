@@ -22,7 +22,7 @@ export default function Footer() {
               href="tel:+32474722414"
               className="font-sans text-sm text-white/60 hover:text-white/90 transition-colors"
             >
-              +32474 72 24 14
+              +32 474 72 24 14
             </a>
           </div>
 

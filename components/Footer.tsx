@@ -7,7 +7,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <p className="font-serif text-xl font-bold text-white/90">Portée de Prana</p>
-            <p className="font-sans text-xs text-white/30 mt-1 tracking-wide">Élevage particulier non-LOOF</p>
+            <p className="font-sans text-xs text-white/30 mt-1 tracking-wide">Élevage particulier</p>
           </div>
 
           {/* Contact */}
@@ -22,7 +22,7 @@ export default function Footer() {
               href="tel:+32474722414"
               className="font-sans text-sm text-white/60 hover:text-white/90 transition-colors"
             >
-              0474 72 24 14
+              +32474 72 24 14
             </a>
           </div>
 
